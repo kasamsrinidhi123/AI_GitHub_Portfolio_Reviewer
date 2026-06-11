@@ -1,4 +1,3 @@
-# AI_GitHub_Portfolio_Reviewer
 # 🚀 AI GitHub Portfolio Reviewer
 
 ## 📌 Abstract
