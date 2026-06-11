@@ -1,0 +1,135 @@
+/* ==========================
+   MAIN APP
+========================== */
+
+.stApp {
+    background-color: #faf7ff;
+}
+
+/* ==========================
+   SIDEBAR
+========================== */
+
+[data-testid="stSidebar"] {
+    background-color: #F3E8FF;
+}
+
+[data-testid="stSidebar"] h1 {
+    color: #6B21A8;
+    text-align: center;
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #D8B4FE;
+    background-color: white;
+    color: #6B21A8;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    background-color: #E9D5FF;
+    color: #4C1D95;
+}
+
+/* ==========================
+   HEADINGS
+========================== */
+
+h1,
+h2,
+h3 {
+    color: #4C1D95;
+}
+
+/* ==========================
+   METRIC CARDS
+========================== */
+
+[data-testid="metric-container"] {
+    background-color: white;
+    border: 1px solid #E9D5FF;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* ==========================
+   ALERT BOXES
+========================== */
+
+.stSuccess {
+    border-radius: 10px;
+}
+
+.stInfo {
+    border-radius: 10px;
+}
+
+/* ==========================
+   DOWNLOAD BUTTON
+========================== */
+
+.stDownloadButton button {
+    background-color: #8B5CF6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.stDownloadButton button:hover {
+    background-color: #7C3AED;
+}
+
+/* ==========================
+   TABLES
+========================== */
+
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* ==========================
+   INPUT FIELDS
+========================== */
+
+.stTextInput input {
+    border-radius: 10px;
+    border: 1px solid #D8B4FE;
+}
+
+textarea {
+    border-radius: 10px !important;
+    border: 1px solid #D8B4FE !important;
+}
+
+/* ==========================
+   DIVIDER
+========================== */
+
+hr {
+    border: 1px solid #E9D5FF;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer {
+    visibility: hidden;
+}
+
+/* DO NOT HIDE HEADER */
+/*
+header[data-testid="stHeader"] {
+    display: none;
+}
+*/
